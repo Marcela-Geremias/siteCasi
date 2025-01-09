@@ -169,7 +169,7 @@ $conn->close();
     </style>
 </head>
 <body>
-    <a href="../visualizar_criancas.php" id="view_button">Voltar à Lista</a>
+    <a href="visualizar_criancas.php" id="view_button">Voltar à Lista</a>
     <div class="box">
         <form action="processa_edicao.php" method="POST" class="form-container">
             <fieldset>
@@ -216,12 +216,10 @@ $conn->close();
                     </div>
 
                     <div class="flex-item">
-                        <p><b>Dia:</b></p>
+                        <p><b>Gênero:</b></p>
                         <select name="dia" id="dia">
-                            <option value="Segunda-Feira" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Segunda-Feira' ? 'selected' : ''; ?>>Segunda-Feira</option>
-                            <option value="Terça-Feira" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Terça-Feira' ? 'selected' : ''; ?>>Terça-Feira</option>
-                            <option value="Quarta-Feira" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Quarta-Feira' ? 'selected' : ''; ?>>Quarta-Feira</option>
-                            <option value="Quinta-Feira" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Quinta-Feira' ? 'selected' : ''; ?>>Quinta-Feira</option>
+                            <option value="Feminino" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Feminino' ? 'selected' : ''; ?>>Feminino</option>
+                            <option value="Masculino" <?php echo isset($crianca['dia']) && $crianca['dia'] == 'Masculino' ? 'selected' : ''; ?>>Masculino</option>
                         </select>
                     </div>
 

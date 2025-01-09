@@ -130,20 +130,7 @@ $conn->close();
         .home-button:hover {
             background-color: #2e8b57;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
     </style>
 </head>
 <body>
